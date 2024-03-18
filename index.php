@@ -76,7 +76,7 @@ if (isset ($_GET['vote']) && is_numeric($_GET['vote'])) {
 
     <?php include 'slider.php'; ?>
 
-    <div class="container py-4 position-absolute top-0">
+    <div id="ciao" class="container">
 
         <h1 class="mb-4 fw-bold text-black">Hotels List:</h1>
 
